@@ -11,3 +11,12 @@ num2 = 46
 
 num_check(num1)
 num_check(num2)
+
+print("Another short program to swap nos")
+
+a = 23
+b = 56
+
+a,b = b,a
+
+print(a,b)
