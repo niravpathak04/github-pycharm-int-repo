@@ -1,2 +1,13 @@
-print("This is a Python code guys!!")
-print("Adding another print statement")
+print("A simple python code.... to check number is odd or even")
+
+def num_check(a):
+    if a % 2 == 0:
+        print("Even")
+    else:
+        print("Odd")
+
+num1 = 23
+num2 = 46
+
+num_check(num1)
+num_check(num2)
